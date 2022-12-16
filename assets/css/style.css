@@ -10,34 +10,115 @@
 body {
   background-color: var(--background);
   color: var(--secondary);
-
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0%; 
 }
 
 header {
   background-color: var(--primary);
   color: var(--secondary);
-  padding: 25px;
-  margin: 0;
+  padding: 1.25%;
+  width: 100%;
 }
 
+.profile-picture {
+  border: solid 2px;
+  border-radius: 10px;
+  border-color: var(--background);
+  box-shadow: 7px 7px 7px black
+  
+  
+}
 header h1 h2 {
   color: var(--secondary);
+
+}
+
+.text {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 5%
 }
 
 p {
   color: var(--primary);
 }
 nav {
-float: right;
+display: flex;
+justify-content: flex-end;
 }
 
 nav a {
   color: var(--secondary);
+  display: inline-block;
+  font-size: 20px;
+}
+
+nav div:hover {
+  background-color: var(--background);
+  color: var(--primary);
+  border-radius: 10%;
+  /*padding: 5px;*/
 
 }
 
-nav a:hover {
-  background-color: var(--background);
-  color: var(--primary);
-  box-shadow: 5px 5px 5px var(--secondary);
+.div-links {
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 5%;
+  margin-bottom: 0%;
+
+}
+.page-section {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+  /*padding: 25%;*/
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  
+  
+}
+
+.project1-image {
+  display: block;
+  flex: 1 0 200px;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 10px;
+  border-color: var(--primary);
+  box-shadow: 7px 7px 7px black
+}
+
+.project-images {
+  display: block;
+  flex: 1 0 200px;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 10px;
+  border-color: var(--primary);
+  box-shadow: 7px 7px 7px black
+}
+
+.contact-section {
+  background-color: var(--primary);
+  color: var(--secondary);
+  margin-top: 20%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+address a {
+  color: var(--secondary)
 }
