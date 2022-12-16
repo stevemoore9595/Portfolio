@@ -28,7 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Deployed Application
 
-The deployed application can be found at this link:
+The deployed application can be found at this link: https://stevemoore9595.github.io/Portfolio/
 
 ## License
 
