@@ -33,3 +33,5 @@ The deployed application can be found at this link:
 ## License
 
 Please refer to the LICENSE in the repository
+
+![screenshot-of-portfolio](https://user-images.githubusercontent.com/38742748/208041288-b0acd21e-24ef-45e8-ba3f-ed4d574cdd52.png)
