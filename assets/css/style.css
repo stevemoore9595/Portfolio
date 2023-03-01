@@ -109,6 +109,11 @@ nav div:hover {
   box-shadow: 7px 7px 7px black
 }
 
+#cards {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
 .contact-section {
   background-color: var(--primary);
   color: var(--secondary);
